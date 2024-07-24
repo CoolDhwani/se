@@ -1,0 +1,54 @@
+body {
+background-image:linear-gradient(rgb(9, 163, 58), rgb(19, 216, 75), rgb(13, 218, 170), rgb(126, 195, 189));
+background-size: cover;
+background-repeat: no-repeat;
+color:white;
+}
+h1{
+  text-align: center;  
+  font-size: 40px;
+  font-family: "fantasy";
+}
+#logo_img {
+  width: 150px;
+  border-radius: 100px;
+}
+h4{
+  font-family:cursive;
+}
+#btn1{
+  color: white;
+  background-color: blueviolet;
+  
+}
+#name{
+  font-size: 40px;
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+}
+#information{
+font-size: 20px;
+color: white;
+}
+.navbar{
+  background-color: rgb(17, 251, 212);
+  color:white;
+  font-family: calibri;
+  padding: 15px;
+  position: sticky;
+}
+#navdiv{
+align-items: center;
+justify-content: space-between;
+}
+#logo{
+font-size: 20px;
+color: white;
+padding-left: 40px;
+}
+li{
+list-style: none;
+display: inline-block;
+align-items: center;
+justify-content: space-between;
+}

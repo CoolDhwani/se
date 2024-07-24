@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+<title>Go green</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+   <div id="navdiv">
+      <div id="logo">Petal Paradise
+      </div>
+      </div>
+      <ul>
+         <li ><a href="plant.html"> Home</a></li>
+         <li ><a href="chat.html">FAQ's</a></li>
+         <li><a href="animals.html">Animal protector</a></li>
+         <li><a href="oq.html">Question Submissions</a></li>
+         <li><a href="aurdino.html">Irrigation Section</a></li> 
+      </ul>
+   </div>
+</nav>
+<center>
+ <h1> Petal Paradise 
+    <img id="logo_img" src="logo.jpeg">
+ </h1>  
+ <hr>
+ <div class="container" id="BasicInformation">
+<h4>Welcome to the go green website. This website can help you to grow your houseplants easily and efficiently.</h4>
+<br>
+<div id="camera" style="width: 500px; height: 400px;"></div>
+
+<h5>This is your webcam:<h5>
+<br>
+<button onclick = "take_snapshot();" , id="btn1">Click the photo </button><br>
+<h4>Click the button to get a photo of your plant through the camera and you will get guidelines on how to grow the plant!</h4>
+<div id ="result1">
+    
+</div>
+<br>
+<div class="container">
+<button id="btn2" onclick="check();">Click me </button>
+<br>
+<h3 id ="name"></h3>
+<br>
+<h4 id="information"></h4>
+</div>
+ </div>
+ <center>
+<script src="main.js"></script>
+</body>
+</html>

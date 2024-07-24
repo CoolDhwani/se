@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js'></script>
+
+    <script>
+
+    var socket = io();
+
+    socket.on('data', function(data) {
+        console.log(data);
+        document.getElementById('sample').style.opacity = data+"%";
+    });
+
+    </script>
+
+  </head>
+  <body>
+<nav class="navbar">
+        <div id="navdiv">
+           <div id="logo">Petal Paradise
+           </div>
+           </div>
+           <ul>
+              <li ><a href="plant.html"> Home</a></li>
+              <li ><a href="chat.html">FAQ's</a></li>
+              <li><a href="animals.html">Animal protector</a></li>
+              <li><a href="oq.html">Question Submissions</a></li>
+              <li><a href="aurdino.html">Irrigation Section</a></li>
+           </ul>
+        </div>
+     </nav>
+    <h1>Welcome to irrigation section</h1>
+    <div id="sample"></div>
+
+  </body>
+</html>
